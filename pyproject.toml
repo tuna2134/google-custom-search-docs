@@ -9,6 +9,7 @@ python = "^3.8"
 aiohttp = "^3.7.4"
 result = "^0.6.0"
 google-custom-search = "^0.0.4a5"
+custom-google-search = "^1.0.0"
 
 [tool.poetry.dev-dependencies]
 

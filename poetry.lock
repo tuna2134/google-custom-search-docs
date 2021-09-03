@@ -67,6 +67,17 @@ python-versions = ">=3.5.0"
 unicode_backport = ["unicodedata2"]
 
 [[package]]
+name = "custom-google-search"
+version = "1.0.0"
+description = "Performs custom google search programmatically"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+requests = "*"
+
+[[package]]
 name = "google-custom-search"
 version = "0.0.4a5"
 description = "This is for google custom search api."
@@ -156,7 +167,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "01bc65195b4b31859b8a6004898a59149c64085b22881b7e05578f6a8902bd0c"
+content-hash = "719f0ce03347358471fa2e14cd1332582e2c8c8dadf35f73288b8d55e41d0faa"
 
 [metadata.files]
 aiohttp = [
@@ -217,6 +228,9 @@ chardet = [
 charset-normalizer = [
     {file = "charset-normalizer-2.0.3.tar.gz", hash = "sha256:c46c3ace2d744cfbdebceaa3c19ae691f53ae621b39fd7570f59d14fb7f2fd12"},
     {file = "charset_normalizer-2.0.3-py3-none-any.whl", hash = "sha256:88fce3fa5b1a84fdcb3f603d889f723d1dd89b26059d0123ca435570e848d5e1"},
+]
+custom-google-search = [
+    {file = "custom_google_search-1.0.0-py2.py3-none-any.whl", hash = "sha256:a04f4508765cd7c5bc266510758e543f7d2e9fc321aa0273af31543d9cde12ec"},
 ]
 google-custom-search = [
     {file = "google-custom-search-0.0.4a5.tar.gz", hash = "sha256:1255ea9f510d8dc5ef7040436d42d4db81d90b364662f1abce47905f4c398352"},
